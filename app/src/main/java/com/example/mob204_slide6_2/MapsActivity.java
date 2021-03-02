@@ -44,8 +44,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
      //   mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
 
         // Add a marker in Hanoi and move the camera
-        LatLng haNoi = new LatLng(21,105);
-        mMap.addMarker(new MarkerOptions().position(haNoi).title("Marker in Hanoi"));
+        LatLng haNoi = new LatLng(21.038328059265574, 105.74687292804896);
+        mMap.addMarker(new MarkerOptions().position(haNoi).title("Marker in FPoly"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(haNoi));
     }
 }
